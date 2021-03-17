@@ -83,6 +83,7 @@ class PassNextKeyMode extends Mode {
     let keyDownCount = 0;
 
     super.init({
+      exitOnEscape: 1,
       name: "pass-next-key",
       indicator: "Pass next key.",
       // We exit on blur because, once we lose the focus, we can no longer track key events.

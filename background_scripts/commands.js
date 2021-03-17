@@ -358,7 +358,9 @@ const defaultKeyMappings = {
 
   // Misc
   "?": "showHelp",
-  "gs": "toggleViewSource"
+  "gs": "toggleViewSource",
+  "q": "passNextKey exitOnEscape",
+  "s": "passNextKey count=9999"
 };
 
 
